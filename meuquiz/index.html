@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+        <div id="topoTitulo">
+           <h1>Quiz sobre o Brasil!</h1>
+            <img src="https://s1.static.brasilescola.uol.com.br/be/2024/02/bandeira-do-brasil-hasteada-em-texto-sobre-curiosidades-sobre-o-brasil.jpg">
+        </div>
+
+
+        <div id="meioPerguntas">
+            
+            <div class = "card">
+                <p>Pergunta 1</p>
+            <h2>Qual é a capital mais populosa do Brasil?</h2>
+
+            </div>
+
+             <div class = "card2">
+                
+                <p>Pergunta 2</p>
+                <h2>Qual destas comidas típicas brasileiras é feita à base de mandioca?</h2>
+
+            </div>
+
+            <div class = "card">
+
+                <p>Pergunta 3</p>
+                <h2>Qual é a maior floresta tropical do Brasil?</h2>
+
+            </div>
+            
+            
+        </div>
+        
+        
+        <div id="meioLabels">
+          
+        <label>Escolha sua resposta:</label>
+        <label>Escolha sua resposta:</label>
+        <label>Escolha sua resposta:</label>
+
+        </div>
+
+
+        <div id="meioSelects">
+
+            <select id="Pergunta1">
+
+                <option value="">Resposta</option>
+                <option value="1">São Paulo</option>
+                <option value="0">Rio de Janeiro</option>
+                <option value="0">Brasilia</option>
+        
+            </select>
+
+            <select id="Pergunta2">
+
+                <option value="">Resposta</option>
+                <option value="0"> Acarajé</option>
+                <option value="0">Feijoada</option>
+                <option value="1">Tapioca</option>
+        
+            </select>
+
+            <select id="Pergunta3">
+
+                <option value="">Resposta</option>
+                <option value="1"> Floresta Amazônica</option>
+                <option value="0">Mata Atlântica</option>
+                <option value="0">Cerrado</option>
+        
+            </select>
+
+        </div>
+
+        <div id="InputResult">
+            Sua pontuação:
+            <input id="pontos">
+            <button onclick="Resultado()">Veja sua pontuação</button>
+        </div>
+
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
